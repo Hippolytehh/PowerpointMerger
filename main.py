@@ -32,10 +32,10 @@ while (True):
             prs.Close()
         
         lst = []
-        liste = os.listdir(r"" + path_in + "")
+        liste = os.listdir(path_in)
         
         for file in liste:
-            if file[:-4] == 'pptx':
+            if file[-4:] == 'pptx':
                 lst.append(f"{path_in}/{file}")
                 print(file)
                 
