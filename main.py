@@ -50,6 +50,7 @@ while (True):
             print(f"\nNo file has been added to {path_in}")
             
         shutil.rmtree(path_in, ignore_errors=False, onerror=None)
+        os.startfile(output_path)
         break
     else:
         pass
