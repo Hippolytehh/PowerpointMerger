@@ -7,7 +7,7 @@ import shutil
 download_folder = str(os.path.join(Path.home(), "Downloads")).replace("\\","/").replace("\\","/")
 
 while (True):
-    i = input("\nContinuer ? (y/n) : ")
+    i = input("\nContinue ? (y/n) : ")
     if i.lower() == 'n':
         break
     elif i.lower():
